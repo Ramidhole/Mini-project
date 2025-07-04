@@ -8,13 +8,14 @@
     background-size: cover;
     height: 100vh;
 }
-.btn_one{
-    color: rgb(28, 4, 4);
-    font-size: 30px;
+.btn_one {
+    color: rgb(229, 218, 218);
+    font-size: 25px;
     font-weight: 700;
     position: absolute;
     left: 16px;
     line-height: 60px;
+    cursor:pointer;
 
 }
 .sidebar_menu {
@@ -45,14 +46,15 @@
 
 }
 
-.sidebar_menu .btn_two{
+.sidebar_menu .btn_two  i{
     position: absolute;
     left: 275px;
     font-size: 20px;
     color: grey;
     line-height: 60px;
-    opacity: 0;
-    
+    /* opacity: 0; */
+    cursor: pointer;
+
 
 }
 
@@ -87,7 +89,33 @@
  .sidebar_menu .social_media i{
     color: white;
         opacity: 0.5;
+        /* margin-right: 5px; */
+        padding-left:20px ;   
+        /* margin-inline-start: 10px; */
+        
+        
+
+        
  }
    #check{
     display: none;
+   }
+   .sidebar_menu .menu li:hover{
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+   }
+
+   .btn_one i:hover{
+    font-size: 40px;
+
+   }
+
+   .btn_two i:hover{
+    font-size: 30px;
+   }
+
+   .sidebar_menu .social_media i:hover{
+    opacity: 4;
+    transform: scale(2);
+
+
    }
